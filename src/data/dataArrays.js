@@ -1,31 +1,29 @@
 export const categories = [
   {
     id: 3,
-    name: 'Cookies',
-    photo_url:
-    'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
+    name: 'Consultoria',
+    photo_url: 'https://img-easymoney.s3.amazonaws.com/consulting.png'
   },
   {
     id: 1,
-    name: 'Mexican Food',
-    photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
+    name: 'Aulas',
+    photo_url: 'https://img-easymoney.s3.amazonaws.com/online-class.png'
   },
   {
     id: 2,
-    name: 'Italian Food',
+    name: 'Assistência Técnica',
     photo_url:
-      'https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
+      'https://img-easymoney.s3.amazonaws.com/assistance.png'
   },
   {
     id: 4,
-    name: 'Smoothies',
-    photo_url:
-    'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*'
+    name: 'Para Família',
+    photo_url:'https://img-easymoney.s3.amazonaws.com/family.png'
   },
   {
     id: 0,
-    name: 'Pizza',
-    photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
+    name: 'Para Casa',
+    photo_url: 'https://img-easymoney.s3.amazonaws.com/for-sale.png'
   },
 ];
 
@@ -33,24 +31,22 @@ export const recipes = [
   {
     recipeId: 122,
     categoryId: 3,
-    title: 'Oatmeal Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
+    title: 'Mediador de Conflito',
+    photo_url: 'https://img-easymoney.s3.amazonaws.com/adv-family/adv-family-2.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://img-easymoney.s3.amazonaws.com/adv-family/adv-family-1.jpg',
+      "https://img-easymoney.s3.amazonaws.com/adv-family/adv-family-2.jpg",
+      'https://img-easymoney.s3.amazonaws.com/adv-family/adv-family-3.jpeg'
     ],
     time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    ingredients: [[0, ''], [1, '']],
     description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
+      'Em áreas específicas como no campo sócio-jurídico, a mediação está relacionada a diferentes instâncias, sendo que a maioria das demandas envolvem conflitos e rompimentos de vínculos na esfera familiar, como: \n\n - Abuso sexual de crianças e adolescentes cometidos por familiares; \n\n - Concessão de pensão alimentícia, \n\n - Concessão do Benefício de Prestação Continuada (BPC) quando negado pelo INSS.\n\nA mediação no campo sócio-jurídico é um processo que visa aprofundar a questão social de modo que está não se mantenha mascarada, para que o contexto social e econômico vivenciados pelas famílias possam ser esclarecidas garantindo assim a defesa e efetivação de direitos. \n\nAinda existem as mediações de conflito que ocorrem nos espaços de controle social, como a da Sociedade Civil e do Poder Público nos Conselhos de Direitos e a Intersetorial, que é quando o profissional possui uma demanda que necessita ser encaminhada para outras áreas como a Saúde e Educação. \n\ne-mail: advogado@gmail.com \n\nTelefone: 11 00000-0000'
   },
   {
     recipeId: 3,
     categoryId: 4,
-    title: 'Triple Berry Smoothie',
+    title: 'Contador empresarial',
     photo_url:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
     photosArray: [
@@ -70,7 +66,7 @@ export const recipes = [
   {
     recipeId: 2,
     categoryId: 3,
-    title: 'Vegan Cookies',
+    title: 'Digitalizar documentos',
     photo_url: 'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
     photosArray: [
       'https://www.texanerin.com/content/uploads/2018/06/no-bake-lactation-cookies-1-650x975.jpg',
@@ -325,12 +321,12 @@ export const recipes = [
 export const ingredients = [
   {
     ingredientId: 0,
-    name: 'Oil',
+    name: 'Mediação Criminal',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/27252067/thumb/11.jpg'
   },
   {
     ingredientId: 1,
-    name: 'Salt',
+    name: 'Mediação familiar',
     photo_url:
       'https://image.freepik.com/free-photo/sea-salt-wooden-bowl-isolated-white-background_29402-416.jpg'
   },

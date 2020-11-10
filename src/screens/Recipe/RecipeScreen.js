@@ -106,14 +106,14 @@ export default class RecipeScreen extends React.Component {
 
           <View style={styles.infoContainer}>
             <Image style={styles.infoPhoto} source={require('../../../assets/icons/time.png')} />
-            <Text style={styles.infoRecipe}>{item.time} minutes </Text>
+            <Text style={styles.infoRecipe}>{item.time} por hora </Text>
           </View>
 
           <View style={styles.infoContainer}>
             <ViewIngredientsButton
               onPress={() => {
                 let ingredients = item.ingredients;
-                let title = 'Ingredients for ' + item.title;
+                let title = 'detalhes do ' + item.title;
                 navigation.navigate('IngredientsDetails', { ingredients, title });
               }}
             />
