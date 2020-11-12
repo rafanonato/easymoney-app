@@ -49,7 +49,7 @@ export default class SearchScreen extends React.Component {
           round
           onChangeText={text => params.handleSearch(text)}
           //onClear={() => params.handleSearch('')}
-          placeholder="Search"
+          placeholder="qual serviço precisa?"
           value={params.data}
         />
       )

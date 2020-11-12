@@ -5,15 +5,15 @@ export const categories = [
     photo_url: 'https://img-easymoney.s3.amazonaws.com/consulting.png'
   },
   {
-    id: 1,
-    name: 'Aulas',
-    photo_url: 'https://img-easymoney.s3.amazonaws.com/online-class.png'
-  },
-  {
     id: 2,
     name: 'Assistência Técnica',
     photo_url:
       'https://img-easymoney.s3.amazonaws.com/assistance.png'
+  },
+  {
+    id: 1,
+    name: 'Aulas',
+    photo_url: 'https://img-easymoney.s3.amazonaws.com/online-class.png'
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ export const recipes = [
       "https://img-easymoney.s3.amazonaws.com/adv-family/adv-family-2.jpg",
       'https://img-easymoney.s3.amazonaws.com/adv-family/adv-family-3.jpeg'
     ],
-    time: '15',
+    time: 'R$ 15',
     ingredients: [[0, ''], [1, '']],
     description:
       'Em áreas específicas como no campo sócio-jurídico, a mediação está relacionada a diferentes instâncias, sendo que a maioria das demandas envolvem conflitos e rompimentos de vínculos na esfera familiar, como: \n\n - Abuso sexual de crianças e adolescentes cometidos por familiares; \n\n - Concessão de pensão alimentícia, \n\n - Concessão do Benefício de Prestação Continuada (BPC) quando negado pelo INSS.\n\nA mediação no campo sócio-jurídico é um processo que visa aprofundar a questão social de modo que está não se mantenha mascarada, para que o contexto social e econômico vivenciados pelas famílias possam ser esclarecidas garantindo assim a defesa e efetivação de direitos. \n\nAinda existem as mediações de conflito que ocorrem nos espaços de controle social, como a da Sociedade Civil e do Poder Público nos Conselhos de Direitos e a Intersetorial, que é quando o profissional possui uma demanda que necessita ser encaminhada para outras áreas como a Saúde e Educação. \n\ne-mail: advogado@gmail.com \n\nTelefone: 11 00000-0000'
